@@ -1,0 +1,18 @@
+@import url("https://joshuah345.github.io/Discord-Stuff/Themes/Snippets/reOrderPopout.css");
+
+:root {
+    /* TOP SECTION ITEMS */
+    --username-section-position:1;
+    --custom-status-position:3;
+    --profile-mutuals-position:2;
+
+
+    /* LOWER SECTION ITEMS */
+    --about-me-position:1;
+    --member-since-position:2;   
+    --connections-position:5;
+    --role-list-position:4;
+    --activity-position:3;
+    --notes-position:6;
+    --message-box-position:6;
+}

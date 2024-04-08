@@ -1,0 +1,12 @@
+.panels__58331 > .container_ca50b9 .flex_f5fbb7 > :not(:last-child) {
+    opacity: 0% !important;
+    width: 0px;
+    transition: all 0.2s ease-in-out;
+}
+.panels__58331 > .container_ca50b9:hover .flex_f5fbb7 > :not(:last-child) {
+    opacity: 100% !important;
+    width: 32px;
+}
+.container_ca50b9 {
+    justify-content: space-between;
+}

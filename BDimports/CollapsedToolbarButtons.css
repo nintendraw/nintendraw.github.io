@@ -1,0 +1,59 @@
+.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]::before,
+.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]::after {
+  content: "";
+  font-size: unset;
+  scale: 1;
+}
+
+.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_] {
+  transition: unset;
+  translate: unset;
+  padding-bottom: unset;
+  padding-left: unset;
+}
+.callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]:hover {
+  translate: unset;
+}
+
+[class^=upperContainer_] [class^=toolbar_]::before,
+[class^=upperContainer_] [class^=toolbar_]::after {
+  content: "≡";
+  font-size: 2rem;
+  scale: 1;
+  color: var(--interactive-normal);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 100%;
+  height: 100%;
+  transition: scale 0.3s 0.1s ease-in-out;
+}
+[class^=upperContainer_] [class^=toolbar_]::before::after,
+[class^=upperContainer_] [class^=toolbar_]::after::after {
+  color: transparent;
+}
+
+[class^=upperContainer_] [class^=toolbar_] {
+  transition: all ease-in-out 0.3s;
+  translate: calc(100% - 8px);
+  padding-bottom: 5px;
+  padding-left: 20px;
+}
+[class^=upperContainer_] [class^=toolbar_][class^=icon_] {
+  transition: all ease-in-out 0.3s;
+  width: 0;
+  opacity: 0;
+}
+[class^=upperContainer_] [class^=toolbar_]:hover {
+  translate: 0%;
+  padding-left: 0px !important;
+}
+[class^=upperContainer_] [class^=toolbar_]:hover[class^=icon_] {
+  transition: all ease-in-out 0.5s;
+  width: unset;
+  opacity: 1;
+}
+[class^=upperContainer_] [class^=toolbar_]:hover::before {
+  margin-right: 8px;
+  scale: 0 1;
+}

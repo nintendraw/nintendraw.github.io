@@ -1,0 +1,42 @@
+.wordmark-2u86JB {
+    display: none;
+}
+
+#channelTabs-container{
+    -webkit-app-region: drag;
+    width: calc(100vw - 100px);
+}
+
+.titleBar-1it3bQ {
+    -webkit-app-region: drag;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 4000;
+    height: calc(var(--channelTabs-tabHeight) + 4px);
+}
+
+.channelTabs-tabNav, .channelTabs-tab, .channelTabs-newTab, #channelTabs-settingsMenu {
+    -webkit-app-region: no-drag;
+}
+
+#channelTabs-settingsMenu {
+    margin-right: 84px;
+    top: 0;
+    height: 22px !important;
+    width: 28px !important;
+}
+
+.channelTabs-settingsIcon {
+    max-height: 10px !important;
+    max-width: 10px !important;
+}
+
+.channelTabs-tabContainer {
+    width: calc(100% - 28px);
+}
+
+.channelTabs-favContainer {
+    -webkit-app-region: no-drag;
+    width: calc(100vw - 16px);
+}

@@ -1,0 +1,34 @@
+#emoji-picker-tab-panel .emojiLockIconContainer_edde9a {
+  display: none;
+}
+
+#emoji-picker-tab-panel .categoryItemLockIconContainer__9e6a3,
+#emoji-picker-tab-panel .upsellContainer__3c02a {
+  display: none !important;
+}
+
+#emoji-picker-tab-panel .categorySectionNitroLocked_cf3b81 {
+  background-color: var(--background-secondary);
+}
+
+#emoji-picker-tab-panel .categorySectionNitroLocked_cf3b81 .emojiItem_b15dee {
+  filter: grayscale();
+}
+
+.channel_c21703:has([data-list-item-id$="___nitro"]), .channel_c21703:has([data-list-item-id$="___shop"]), /*Shop and nitro private channels*/
+.containerWrapper-1kh54c, /*Userpopout nitro upsell*/
+.premiumTab__57bdc, /*Nitro Settings Tab*/
+.buttons_ce5b56 > button[aria-haspopup="dialog"], /*Gift Button*/
+.premiumFeatureBorder__9bbb3, /*Premium settings feature upsell cards.*/
+.container_d6bff4:has(.ctaButton__7d20c) /*Shop advertisement*/ {
+    display: none;
+}
+
+.privateChannels-oVe7HL [href="/store"] + svg,
+.item-3XjbnG [class*="Promo"],
+.premiumLabel-3HPvdB svg,
+.premiumLabel-3HPvdB .badgeIconSettingsMenu-39c26C {
+    display: none;
+}
+
+.premiumLabel-3HPvdB {color: var(--color-muted);}
